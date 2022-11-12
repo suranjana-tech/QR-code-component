@@ -1,0 +1,39 @@
+.bg-container{
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 77%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image{
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.heading{
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.description{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
